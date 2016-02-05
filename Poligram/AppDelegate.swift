@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        let testUser = Profile.createUser("Policante")
+        testUser.picture = UIImage(named: "me.png")
+        Profile.currentUser = testUser
+        Post.feed = [Post]()
+        Post.feed?.append(Post.init(creator: "Martins", image: UIImage(named: "image1.jpeg"), caption: "\\o/"))
+            
         return true
     }
 

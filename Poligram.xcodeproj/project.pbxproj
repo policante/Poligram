@@ -12,6 +12,16 @@
 		190127FD1C56DA3C009BAA7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190127FB1C56DA3C009BAA7A /* Main.storyboard */; };
 		190127FF1C56DA3C009BAA7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190127FE1C56DA3C009BAA7A /* Assets.xcassets */; };
 		190128021C56DA3C009BAA7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190128001C56DA3C009BAA7A /* LaunchScreen.storyboard */; };
+		1925BEDC1C62C38C00BD7DAC /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925BEDB1C62C38C00BD7DAC /* PostModel.swift */; };
+		1925BEDE1C62C4C400BD7DAC /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925BEDD1C62C4C400BD7DAC /* ProfileModel.swift */; };
+		1925BEE01C62D45000BD7DAC /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925BEDF1C62D45000BD7DAC /* ProfileController.swift */; };
+		1925BEE21C62D68A00BD7DAC /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925BEE11C62D68A00BD7DAC /* FeedController.swift */; };
+		1925BEE41C62DFA000BD7DAC /* CenterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925BEE31C62DFA000BD7DAC /* CenterTabBarController.swift */; };
+		197ADF961C6425730043E262 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197ADF951C6425730043E262 /* CameraController.swift */; };
+		197ADF981C6438510043E262 /* CaptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197ADF971C6438510043E262 /* CaptionController.swift */; };
+		197ADF9D1C6440F90043E262 /* image1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 197ADF9A1C6440F90043E262 /* image1.jpeg */; };
+		197ADF9E1C6440F90043E262 /* me.png in Resources */ = {isa = PBXBuildFile; fileRef = 197ADF9B1C6440F90043E262 /* me.png */; };
+		197ADFA11C6441CF0043E262 /* no-photo.png in Resources */ = {isa = PBXBuildFile; fileRef = 197ADFA01C6441CF0043E262 /* no-photo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		190127FE1C56DA3C009BAA7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190128011C56DA3C009BAA7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		190128031C56DA3C009BAA7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1925BEDB1C62C38C00BD7DAC /* PostModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		1925BEDD1C62C4C400BD7DAC /* ProfileModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
+		1925BEDF1C62D45000BD7DAC /* ProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		1925BEE11C62D68A00BD7DAC /* FeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		1925BEE31C62DFA000BD7DAC /* CenterTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CenterTabBarController.swift; sourceTree = "<group>"; };
+		197ADF951C6425730043E262 /* CameraController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		197ADF971C6438510043E262 /* CaptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptionController.swift; sourceTree = "<group>"; };
+		197ADF9A1C6440F90043E262 /* image1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpeg; sourceTree = "<group>"; };
+		197ADF9B1C6440F90043E262 /* me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me.png; sourceTree = "<group>"; };
+		197ADFA01C6441CF0043E262 /* no-photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-photo.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,10 @@
 		190127F61C56DA3C009BAA7A /* Poligram */ = {
 			isa = PBXGroup;
 			children = (
+				190128091C56EC34009BAA7A /* Controller */,
+				1901280A1C56EC34009BAA7A /* Model */,
+				1901280B1C56EC34009BAA7A /* View */,
+				197ADF991C6440F90043E262 /* Resource */,
 				190127F71C56DA3C009BAA7A /* AppDelegate.swift */,
 				190127F91C56DA3C009BAA7A /* ViewController.swift */,
 				190127FB1C56DA3C009BAA7A /* Main.storyboard */,
@@ -62,6 +86,44 @@
 				190128031C56DA3C009BAA7A /* Info.plist */,
 			);
 			path = Poligram;
+			sourceTree = "<group>";
+		};
+		190128091C56EC34009BAA7A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1925BEDF1C62D45000BD7DAC /* ProfileController.swift */,
+				1925BEE11C62D68A00BD7DAC /* FeedController.swift */,
+				1925BEE31C62DFA000BD7DAC /* CenterTabBarController.swift */,
+				197ADF951C6425730043E262 /* CameraController.swift */,
+				197ADF971C6438510043E262 /* CaptionController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1901280A1C56EC34009BAA7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1925BEDB1C62C38C00BD7DAC /* PostModel.swift */,
+				1925BEDD1C62C4C400BD7DAC /* ProfileModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1901280B1C56EC34009BAA7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		197ADF991C6440F90043E262 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				197ADFA01C6441CF0043E262 /* no-photo.png */,
+				197ADF9A1C6440F90043E262 /* image1.jpeg */,
+				197ADF9B1C6440F90043E262 /* me.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +158,7 @@
 				TargetAttributes = {
 					190127F31C56DA3C009BAA7A = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 99CUK56NBD;
 					};
 				};
 			};
@@ -122,9 +185,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				197ADF9E1C6440F90043E262 /* me.png in Resources */,
+				197ADFA11C6441CF0043E262 /* no-photo.png in Resources */,
 				190128021C56DA3C009BAA7A /* LaunchScreen.storyboard in Resources */,
 				190127FF1C56DA3C009BAA7A /* Assets.xcassets in Resources */,
 				190127FD1C56DA3C009BAA7A /* Main.storyboard in Resources */,
+				197ADF9D1C6440F90043E262 /* image1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1925BEE01C62D45000BD7DAC /* ProfileController.swift in Sources */,
+				1925BEE21C62D68A00BD7DAC /* FeedController.swift in Sources */,
 				190127FA1C56DA3C009BAA7A /* ViewController.swift in Sources */,
+				197ADF981C6438510043E262 /* CaptionController.swift in Sources */,
+				1925BEDC1C62C38C00BD7DAC /* PostModel.swift in Sources */,
 				190127F81C56DA3C009BAA7A /* AppDelegate.swift in Sources */,
+				1925BEDE1C62C4C400BD7DAC /* ProfileModel.swift in Sources */,
+				197ADF961C6425730043E262 /* CameraController.swift in Sources */,
+				1925BEE41C62DFA000BD7DAC /* CenterTabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +320,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Poligram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rpolicante.Poligram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +334,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Poligram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rpolicante.Poligram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +363,7 @@
 				190128081C56DA3C009BAA7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
